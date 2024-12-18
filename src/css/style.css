@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+*{
+    --red: #DA291C;
+    --yellow: #FFCC00;
+}
+body{
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+
+.navbar{
+    background-color: var(--red);
+    color: var(--yellow);
+}
+.nav-link{
+    color: var(--yellow);
+}
+.btn{
+    background-color: var(--yellow);
+}
+.btn:hover{
+    color: var(--yellow);
+    background-color: var(--red);
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+.navbar-brand{
+    width: 4%;
+}
+
+.dropdown-menu{
+    background-color: var(--red);
+}
+.dropdown-item{
+    color: var(--yellow);
+}
+
+.dropdown-item:hover{
+    background-color: var(--yellow);
+}
+
+.nav-item:hover{
+    color: black;
+    background-color: var(--yellow);
+}
+.navbar-toggler-icon{
+    color: var(--yellow);
+}
+
+.border{
+    width: 25%;
+    border-color: var(--red);
+    background-color: var(--yellow);
+}
+
+.color-red{
+    color: var(--red);
+}
+
+.ajustar {
+    width: 100%;
+}
+.color-yellow{
+    color: var(--yellow);
+}
+
+.full-height{
+    height: 90%;
+}
+
+.mid-height{
+    height: 50%;
+}
+
+.real-full-height{
+    height: 100%;
+}
+
+.screen:hover{
+    backdrop-filter: blur(0px);
+}
+.screen{
+    background-color: rgba(63, 74, 78, 0.5);
+    backdrop-filter: blur(5px);
+}
+.banner-1{
+    background-image: url("https://i.blogs.es/f24615/pollo-frito-estilo-pollos-hermanos-4-/840_560.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-2{
+    background-image: url("https://okdiario.com/look/img/2017/04/17/pollos-hermanos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+.banner-3{
+    background-image: url("https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/03/13183540/breaking-bad-.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--red);
+    bottom: 0px;
+    position: fixed;   
+    width: 100%;
+}

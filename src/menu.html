@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Menu</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Mc"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="menu.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="productos/pollo.html">Pollo</a></li>
+                  <li><a class="dropdown-item" href="productos/hamburguesas.html">Hamburguesas</a></li>
+                  <li><a class="dropdown-item" href="productos/patatas.html">Patatas</a></li>
+                  <li><a class="dropdown-item" href="productos/bebidas.html">Bebidas</a></li>
+                  <li><a class="dropdown-item" href="productos/postres.html">Postres</a></li>
+                  <li><a class="dropdown-item" href="productos/infantil.html">Infantil</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="locate.html">Localizar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contactar</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" action="reserva.html">
+              <button class="btn" type="submit">Reserva</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container m-top">
+        <div class="container">
+            <h1 class="text-center">Nuestros productos</h1>
+            <h3 class="text-center">Los Pollos Hermanos usa una receta tradicional de pollo de la familia fring.</h3>
+        </div>
+        <div class="d-flex justify-content-evenly row">
+            <div class="carta col-md-4 col-sm-4">
+                <a href="productos/infantil.html" class="text-decoration-none text-reset">
+                    <div class="contImgCarta d-flex justify-content-evenly">
+                        <img src="https://assets.epicurious.com/photos/54b27e739a93d64c380b00ea/1:1/w_2560%2Cc_limit/368790_fried-chicken_1x1.jpg"
+                        class="imagenCarta" alt="...">
+                    </div>
+                    <div class="textoCarta">
+                        <p class="text-center">Pollo</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carta col-md-4 col-sm-4">
+                <a href="productos/patatas.html" class="text-decoration-none text-reset">
+                    <div class="contImgCarta d-flex justify-content-evenly">
+                        <img src="https://www.seriouseats.com/thmb/Il7mv9ZSDh7n0cZz3t3V-28ImkQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__04__20180309-french-fries-vicky-wasik-15-5a9844742c2446c7a7be9fbd41b6e27d.jpg"
+                        class="imagenCarta" alt="...">
+                    </div>
+                    <div class="textoCarta">
+                        <p class="text-center">Patatas</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carta col-md-4 col-sm-4">
+                <a href="productos/hamburguesas.html" class="text-decoration-none text-reset">
+                    <div class="contImgCarta d-flex justify-content-evenly">
+                        <img src="https://mcdonalds.es/api/cms/images/mcdonalds-es/f45ecb36-e726-48d2-b105-40511ca18d4c_mcd-menu-productos-sandwiches.png?auto=compress,format"
+                        class="imagenCarta" alt="..."> 
+                    </div>
+                    <div class="textoCarta">
+                        <p class="text-center">Hamburguesas</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carta col-md-4 col-sm-4">
+                <a href="productos/bebidas.html" class="text-decoration-none text-reset">
+                    <div class="contImgCarta d-flex justify-content-evenly">
+                        <img src="https://mcdonalds.es/api/cms/images/mcdonalds-es/e6d017b5-0ee9-46f8-8001-ae045e948414_150x150-Teclas-Web-Bebidas.png?auto=compress,format"
+                        class="imagenCarta" alt="...">
+                    </div>
+                    <div class="textoCarta">
+                        <p class="text-center">Bebidas</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carta col-md-4 col-sm-4">
+                <a href="productos/pollo.html" class="text-decoration-none text-reset">
+                    <div class="contImgCarta d-flex justify-content-evenly">
+                        <img src="https://mcdonalds.es/api/cms/images/mcdonalds-es/1cb698f5-10a9-46a5-9fc3-84bf62acecee_1289x1125_McNuggets_4uds.png?auto=compress,format"
+                        class="imagenCarta" alt="...">
+                    </div>
+                    <div class="textoCarta">
+                        <p class="text-center">Menu Infantil</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carta col-md-4 col-sm-4">
+                <a href="productos/postres.html" class="text-decoration-none text-reset">
+                    <div class="contImgCarta d-flex justify-content-evenly">
+                        <img src="https://mcdonalds.es/api/cms/images/mcdonalds-es/93ef5d15-a891-4c8c-83b3-3f304ec4bd4d_1080x943_McFlurry_Lotus.png?auto=compress,format"
+                        class="imagenCarta" alt="...">
+                    </div>
+                    <div class="textoCarta">
+                        <p class="text-center">Postres</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="text-center d-flex justify-content-evenly"><a class="color-yellow" href="#">Twitter</a> <a class="color-yellow" href="#">Facebook</a> <a class="color-yellow" href="#">Instagram</a></footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
