@@ -10,6 +10,24 @@ html{
     height: 100%;
 }
 
+.skip-link {
+    position: absolute;
+    top: -40px; /* Hide off-screen initially */
+    left: 0;
+    background-color: #000;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    top: 10px; /* Move it into view when focused */
+    outline: none;
+    background-color: #0056b3;
+}
+
 .link{
     color: black;
     background-color: var(--yellow);
