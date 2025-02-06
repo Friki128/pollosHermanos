@@ -10,6 +10,11 @@ html{
     height: 100%;
 }
 
+.link{
+    color: black;
+    background-color: var(--yellow);
+}
+
 .navbar{
     background-color: var(--red);
     color: var(--yellow);
