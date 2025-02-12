@@ -75,7 +75,6 @@ html{
 }
 
 .border{
-    width: 25%;
     border-color: var(--red);
     background-color: var(--yellow);
 }
