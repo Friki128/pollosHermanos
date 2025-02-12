@@ -141,3 +141,7 @@ footer{
 main{
     width: auto;
 }
+
+input{
+    min-width: 200px;
+}
