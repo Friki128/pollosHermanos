@@ -52,13 +52,21 @@
   <main id="main">
   <div class="container mt-5 border-danger border rounded-2 p-2 border-3">
     <h1 class="text-center color-red">Reserva</h1>
+    <p>Provee la informacion para hacer la reserva</p>
     <form action="" class="container d-flex justify-content-evenly flex-column">
+        <label for="name">Nombre y Apellidos</label>
         <input class="m-2" type="text" name="name" id="name" placeholder="Nombre y Apellidos" required>
+        <label for="email">Email</label>
         <input class="m-2" type="email" name="email" id="email" placeholder="Email" required>
+        <label for="people">Numero de Personas</label>
         <input class="m-2" type="number" name="people" id="people" placeholder="Numero de Personas" required>
+        <label for="telephone">Telefono</label>
         <input class="m-2" type="tel" name="telephone" id="telephone" placeholder="Telefono" required>
+        <label for="date">Fecha</label>
         <input class="m-2" type="date" name="date" id="date" placeholder="Fecha" required>
+        <label for="hour">Hora</label>
         <input class="m-2" type="time" name="hour" id="hour" placeholder="Hora" required>
+        <label for="comments">Comentarios</label>
         <input class="m-2" type="text" name="comments" id="comments" placeholder="Comentarios">  
         <input class="m-2" type="submit" value="Enviar">
     </form>

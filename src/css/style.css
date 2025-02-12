@@ -38,7 +38,7 @@ html{
     color: var(--yellow);
 }
 .nav-link{
-    color: var(--yellow);
+    color: black;
 }
 .btn{
     background-color: var(--yellow);
@@ -144,4 +144,10 @@ main{
 
 input{
     min-width: 200px;
+}
+
+*{
+    line-height: 1.5;
+    letter-spacing: 0.12;
+    word-spacing: 0.16;
 }
